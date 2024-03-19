@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <title>Lego Collection</title>
+  </head>
+  <body>
+    <div class="navbar bg-base-100">
+      <div class="flex-1">
+        <a class="btn btn-ghost normal-case text-xl" href="/">Home</a>
+      </div>
+
+      <div class="navbar-center hidden sm:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a href="/about">About</a></li>
+          <li>
+            <details>
+              <summary>Theme</summary>
+              <ul class="p-2 bg-base-100 rounded-t-none">
+                <li><a href="/lego/sets?theme=technic">Technic</a></li>
+                <li><a href="/lego/sets?theme=Basic Set">Basic Set</a></li>
+                <li><a href="/lego/sets?theme=Books">Books</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <br />
+
+    <div class="container mx-auto">
+      <div
+        class="hero min-h-screen"
+        style="
+          background-image: url(https://images.unsplash.com/photo-1516981879613-9f5da904015f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+        "
+      >
+        <div class="hero-overlay bg-opacity-90"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-md">
+            <h1 class="text-5xl font-bold">Lego Collection</h1>
+
+            <p class="py-6">
+              Unleash your inner builder and embark on a fascinating journey
+              through the colorful realm of Lego.
+            </p>
+
+            <a href="/lego/sets" class="btn btn-accent">Get Started Now</a>
+          </div>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div>
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img
+                class="w-full"
+                src="https://cdn.rebrickable.com/media/sets/021-1.jpg"
+                alt="Lego set"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Wheel Set</h2>
+              <p>
+                This set was released in America (USA/CAN) by Samsonite in 1966.
+                It was never released in Europe.
+              </p>
+              <div class="card-actions justify-end">
+                <a href="/lego/sets/021-1" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img
+                class="w-full"
+                src="https://cdn.rebrickable.com/media/sets/045-1.jpg"
+                alt="Lego Set"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Jumbo Bricks</h2>
+              <p>Classic Duplo set - create a nursery for your minis.</p>
+              <div class="card-actions justify-end">
+                <a href="/lego/sets/028-1" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="card bg-base-100 shadow-xl">
+            <figure>
+              <img
+                class="w-full"
+                src="https://cdn.rebrickable.com/media/sets/044-1.jpg"
+                alt="Lego Set"
+              />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Basic Building Set</h2>
+              <p>Classic game - released in 1999</p>
+              <div class="card-actions justify-end">
+                <a href="/lego/sets/03093-1" class="btn btn-primary">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
